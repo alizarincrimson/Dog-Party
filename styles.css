@@ -1,0 +1,136 @@
+*,
+*:after,
+*:before {
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    border: 1px solid #000;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+header {
+    background-color: #75e2e6;
+    text-align: left;
+    height: 55px;
+    border-bottom: 3px solid #3F8DA8;
+    font-size: 16px;
+}
+
+.menu {
+    position: inline;
+    float: right;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbanner {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/park.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+}
+
+/*Slightly off center to the left to match comp*/
+form {
+    width: 33%;
+    margin-left: 32%;
+}
+
+p.form-label {
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+}
+
+.textfield {
+    font-size: 16px;
+}
+
+.submit {
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    font-size: 17px;
+}
+
+.submit.button {
+    background-color: #75e2e6;
+    width: 100%;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+.dog-img {
+    margin: auto;
+    display: block;
+    border: 5px solid #048eaa;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.icon-img {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.buckets {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    column-count: 3;
+}
+
+article {
+    height: 625px;
+    width: 35%;
+    min-width: 260px;
+    margin: auto;
+    position: relative;
+}
+
+button {
+    background-color: #048eaa;
+    width: 100%;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer {
+    background-color: #048eaa;
+    color: #fff;
+    text-align: center;
+    height: 175px;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
