@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Dog Party!</title>
+  <title>It's A Dog Party!</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
 </head>
 <body>
   <section class="navbanner">
@@ -16,13 +17,13 @@
       </ul class="menu">
     </header>
     <form>
-      <h1>A Site About <strong>Some Dogs</strong></h1>
+      <h1>A Site About <span id=dog-name>Some Dogs</span></h1>
       <img src="images/dog1-sq.jpg" class="dog-img">
       <p class="form-label">Name</p>
       <div class="textfield">
-        <input type="text" class="submit">
-      </div class="textfield"><br>
-      <input type="submit" value="Name This Dog" class="submit button">
+        <input type="text" id="submit" placeholder="Give this doggo a name!">
+      </div><br>
+      <input type="submit" value="Name This Dog" id="submit-button">
     </form>
   </section class="navbanner">
   <section class="buckets">
@@ -54,4 +55,5 @@
       <img src="images/linkedin.svg" class="icon-img">
     </div>
   </section class="footer">
+  <script type="text/javascript" src="main.js"></script>
 </body>
