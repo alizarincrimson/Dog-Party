@@ -6,28 +6,34 @@
 
 body {
     background-color: #fff;
-    border: 1px solid #000;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: white;
-    font-size: 30px;
-    font-weight: lighter;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.2rem;
     padding: 20px;
 }
 
+#dog-name {
+    font-weight: 800;
+}
+
 h3 {
-    color: black;
+    font: 800 black;
     text-align: center;
+    baseline-shift: baseline;
     padding-bottom: 12px;
 }
 
 header {
     background-color: #75e2e6;
     text-align: left;
-    height: 55px;
+    height: 60px;
     border-bottom: 3px solid #3F8DA8;
     font-size: 16px;
 }
@@ -62,21 +68,18 @@ p.form-label {
     margin: 0px;
 }
 
-.textfield {
-    font-size: 16px;
-}
-
-.submit {
-    color: #fff;
+#submit {
     width: 100%;
     height: 45px;
-    font-size: 17px;
+    font: 400 3rem #000;
 }
 
-.submit.button {
+#submit-button {
     background-color: #75e2e6;
     width: 100%;
+    height: 45px;
     color: #000;
+    font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
 }
@@ -95,6 +98,7 @@ p {
 
 .icon-img {
     padding: 5px;
+    margin: 5px;
     width: 50px;
     height: 50px;
 }
@@ -107,6 +111,7 @@ p {
 }
 
 article {
+    vertical-align: text-top;
     height: 625px;
     width: 35%;
     min-width: 260px;
@@ -120,6 +125,7 @@ button {
     color: #fff;
     height: 50px;
     margin-bottom: 30px;
+    /*vertical-align: baseline;*/
     font-size: 17px;
     position: absolute;
     bottom: 0px;
